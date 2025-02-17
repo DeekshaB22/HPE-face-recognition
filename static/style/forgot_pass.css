@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+body {
+  background-image: url(../images/bglogin.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  align-content: right;
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 70px;
+}
+
+.text-center {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 23px;
+  margin: -60px 0 20px;
+  display: block;
+  text-align: center;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #0112264e;
+  margin-left: none;
+  margin: 20px;
+  width: 25%;
+  height: 10%;
+  /* backdrop-filter: blur(10px); */
+}
+
+.input-container {
+  position: relative;
+  margin-top: 10%;
+  border: 2px solid #D1D1D4;
+  border-radius: 5px;
+}
+
+.input-container label{
+    position: absolute;
+    top: -60%;
+    left: 2%;
+    font-size: 5%;
+    color: #ffffff;
+    /* margin-top: 30px; */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-container i{
+    position: absolute;
+}
+
+.icon {
+    /* padding-left: 10px; */
+    /* padding-top: 12px; */
+    top: 30%;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-container input {
+    border: none;
+	background: none;
+	padding: 3%;
+	padding-left: 15%;
+	font-weight: 700;
+	width: 100%;
+    color: white;
+}
+
+.box a{
+    color:#008567;
+    padding-left: 200px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.box button{
+	width: 100%;
+	height: 40px;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #008567;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    transition: 0.2s;
+}
+
+.or{
+    color: #fff;
+    padding-left: 34px;
+    margin-top: 20px;
+}
+
+.box b{
+    color:#008567;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100%;
+    padding: 70px 20px;
+    margin-left: 0%;
+  }
+}

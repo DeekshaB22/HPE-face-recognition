@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-color: black;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: black;
+    box-shadow: 0 5px 15px rgba(0, 133, 103, 0.75); /* #008567 colored shadow */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 90%;
+    margin: auto;
+    background: black; /* Retain the black background inside the navbar */
+}
+
+.logo .logo-name {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    align-items:center;
+}
+  
+
+.logo .logo-name2 {
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      align-items:center;
+}
+   
+nav .navbar .logo a{
+     color: #fff;
+     font-size: 27px;
+     font-weight: 600;
+     text-decoration: none;
+}
+
+nav .navbar .menu{
+     display: flex;
+}
+
+
+.navbar .menu li{
+     list-style: none;
+     margin: 0 15px;
+}
+
+.navbar .menu li a{
+     color: #fff;
+     font-size: 20px;
+     font-weight: 500;
+     text-decoration: none;
+     align-items:center;
+}
+   
+section{
+     display: flex;
+     height: 100vh;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     color: #96c7e8;
+     font-size: 70px;
+}
+
+.button a{
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     color: #fff;
+     background: #2980b9;
+     padding: 7px 12px;;
+     font-size: 20px;
+     border-radius: 6px;
+     box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+.heading {
+      position: absolute;
+      top: 80px; /* Adjust as needed */
+      left: 60px; /* Adjust as needed */
+      padding: 15px; /* Adjust padding as needed */
+      margin: 0;
+      font-size: 30px;
+      font-weight: 500;
+}
+
+.heading{
+    color: white;
+}
+
+table {
+    width: 100%; /* Full width of its container */
+    border-collapse: collapse; /* Remove space between borders */
+    margin: 20px 0; /* Add margin for spacing */
+    font-size: 16px; /* Adjust font size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better visual appeal */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #008567; /* Light gray background for header */
+    color:white; /* Darker text color for readability */
+    font-weight: bold; /* Make header text bold */
+}
+
+tr{
+    color: white;
+}
+
+tr:hover {
+    background-color: black; /* Highlight row on hover */
+}
+
+caption {
+    font-size: 18px; /* Caption text size */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.btn-entry {
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 490px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #008567;
+    border: none;
+    color: white;
+    text-decoration: none; /* Optional: if you want to remove underline from the button */
+}
